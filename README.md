@@ -22,10 +22,50 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+ 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[NestJs](https://github.com/nestjs/nest) REST API tutorial for [FreeCodeCamp](https://www.youtube.com/watch?v=GHTA143_b-s).
 
+Learn NestJs by building a CRUD REST API with end-to-end tests using modern web development techniques. NestJs is a rapidly growing node js framework that helps build scalable and maintainable backend applications.
+
+## ⭐️ Course Contents ⭐
+
+- [x] Course introduction
+- [x] What is NestJs
+- [x] Why using NestJs
+- [x] What we are building
+- [x] NestJs project setup
+- [x] Modules
+- [x] Auth module
+- [x] Dependency injection
+- [x] Auth controller
+- [x] Setting up postgres in docker
+- [x] Setting up prisma
+- [x] User & bookmark models
+- [x] Running prisma migrations
+- [x] Prisma module
+- [x] Using auth dtos
+- [x] NestJs pipes
+- [x] NestJs global pipe
+- [x] Hashing user password with argon
+- [x] Sign up logic
+- [x] Sign in logic
+- [x] Automate postgres restart & prisma migrations
+- [x] NestJs config module
+- [x] Using passport js & jwt module with nestJs
+- [x] Get current user with access token
+- [x] NestJs Guards
+- [x] NestJs custom param decorator
+- [x] e2e tests with pactumJs
+- [x] Setting up test database
+- [x] Automate test database restart & migrations
+- [x] Using dotenv cli with prisma
+- [x] Prisma database teardown logic
+- [x] Auth e2e tests
+- [x] User e2e tests
+- [x] Bookmarks e2e test
+  
 ## Installation
 
 ```bash
@@ -57,16 +97,6 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
 
 ## License
 
